@@ -3,8 +3,8 @@ services:
   server:
     build: .
     volumes:
-      - ./:/go/src/door/server
+      - "./:/go/src/app"
     ports:
-      - "9000:9000"
+      - "8080:8080"
     command:
       - "fresh"
