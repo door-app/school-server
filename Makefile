@@ -1,3 +1,11 @@
+# ■□ マイグレーション
+#
+migrate:
+	goose up
+migrate_down:
+	goose down
+
+
 run_server:
 	docker-compose up
 

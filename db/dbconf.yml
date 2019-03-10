@@ -3,8 +3,8 @@ test:
   open: user=liam dbname=tester sslmode=disable
 
 development:
-  driver: postgres
-  open: user=liam dbname=tester sslmode=disable
+  driver: mymysql
+  open: tcp:localhost:3306*door/root/rootpass
 
 production:
   driver: postgres
